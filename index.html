@@ -1,11 +1,35 @@
-<html>
-    <head>
-        <script src="index.js"></script>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <!-- <h1 id="title_greeting">Web Development is My Passion</h1> -->
-    <img id="title_greeting" src="cool_logo.gif"></img>
-    <p>what is an iframe</p>
-    <iframe src="https://en.wikipedia.org/wiki/Trollface"></iframe>
-    <img src="https://banner2.cleanpng.com/20180715/hjf/kisspng-frog-cartoon-clip-art-toad-cartoon-5b4be780a3b6d6.3440523915317011206706.jpg"></img>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Page shell. Text and sections are generated from content.js by app.js. -->
+<header class="bar">
+  <div class="title">
+    <div class="logo" id="logo" aria-hidden="true"></div>
+    <h1 id="site-name"></h1>
+    <button class="theme" id="theme" type="button" aria-expanded="false" aria-controls="panel">Theme</button>
+  </div>
+  <div class="panel" id="panel" hidden>
+    <h4>Mode</h4>
+    <button class="pbtn" id="mode" type="button">System</button>
+    <h4>Accent color</h4>
+    <div class="swatches" id="swatches"></div>
+    <label class="custom">Custom <input type="color" id="custom" value="#33b5e5"></label>
+    <button class="pbtn" id="reset" type="button">Reset</button>
+  </div>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Sections"></nav>
+</header>
+<main id="main"></main>
+<footer id="footer"></footer>
+
+<script src="content.js"></script>
+<script src="theme.js"></script>
+<script src="app.js"></script>
+</body>
 </html>
