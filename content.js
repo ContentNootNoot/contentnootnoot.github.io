@@ -217,7 +217,7 @@ project progresses. This will be blogged too.
 
       I'll try to keep posting on here regularly, maybe once every week, maybe once every two weeks. 
 
-      PS: If you want to see the old old site, [it is still here.](old_index.html) It opens in a new tab. 
+      PS: If you want to see the old old site, [it is still here.](old_site/old_index.html) It opens in a new tab. 
       `
     }
   ],
