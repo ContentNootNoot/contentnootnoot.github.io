@@ -3,7 +3,8 @@
 window.CONTENT = {
   name: 'Ryan Li',
   initials: 'RL',
-  logo: 'images/test.png',   // header pict. (optional), e.g. 'images/me.jpg'. Leave ''for initials.
+  logo: '',   // header pict. (optional), e.g. 'images/me.jpg'. Leave ''for initials.
+  photo: 'images/linkedinphoto.jpg', // about me image
   role: 'Electrical Engineering undergraduate from UBC',
   tagline: 'Hi, I’m',
   about: 'My name is Ryan, and I am a recent graduate from UBC, with a bachelor\'s degree in electrical engineering. My passion is in software and electronics. I have experience with various programming languages, lab equipment, as well as CAD software. In the future, I aspire to work in the power electronics or transportation industry, aiming to make it more sustainable for the future.',
@@ -61,6 +62,24 @@ project progresses. This will be blogged too.
       `,
       links: [
         { label: 'Project Report', url: '' },
+        { label: 'Source code', url: '' }
+      ]
+    },
+
+    {
+      slug: 'UEFI_Game',
+      year: 2026,
+      title: 'UEFI Invaders',
+      desc: 'A small space invaders game, reminiscent of those old boot sector games.',
+      tags: ['UEFI', 'C'],
+      image: '',
+      details: `
+      At first, I thought it would be really painful, but it wasn't too bad. A lot of the pain points are 
+      taken care of by GNU-EFI. I ended up writing a little engine which would render all the characters. 
+      There aren't really any "sprites", since I wanted it to be as simple as possible just as a refesher to C.
+      `,
+      links: [
+        { label: 'Project Report', url: 'https://drive.google.com/file/d/1xkDii8u37cWtjhK7TEXH03CSLI4R7-xZ/view' },
         { label: 'Source code', url: '' }
       ]
     },

@@ -61,7 +61,7 @@
              '<p class="role">' + esc(C.role) + '</p><hr><div class="tiles">' + tiles + '</div></div>';
     } },
     { id: 'about', label: 'About', blurb: 'Who I am', render: function () {
-      return '<div class="hero"><div class="avatar" aria-hidden="true">' + esc(C.name.charAt(0)) + '</div><div><h3>' +
+      return    '<div class="avatar" aria-hidden="true">' + (C.photo ? '<img src="' + esc(C.photo) + '" alt="">' : esc(C.name.charAt(0))) + '</div><div><h3>' +
              esc(C.name) + '</h3><p>' + esc(C.role) + '</p></div></div>' + head('About me') + '<p>' + esc(C.about) + '</p>' +
              (C.interests ? head('Interests') + '<p>' + esc(C.interests) + '</p>' : '');
     } },
