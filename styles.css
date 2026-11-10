@@ -38,7 +38,7 @@ h2{font:700 14px "Roboto Condensed",Roboto,sans-serif;text-transform:uppercase;l
 h2:first-child{margin-top:8px}
 
 .hero{display:flex;gap:20px;align-items:center;padding:8px 0 4px}
-.avatar{width:96px;height:96px;flex:none;background:var(--surface2);border:1px solid var(--line);display:grid;place-items:center;font:300 40px Roboto,sans-serif;color:var(--blue)}
+.avatar{width:250px;height:250px;flex:none;background:var(--surface2);border:1px solid var(--line);display:grid;place-items:center;font:300 40px Roboto,sans-serif;color:var(--blue)}
 .hero h3{font:300 34px/1.1 Roboto,sans-serif;margin:0 0 4px}
 .hero p{margin:0;color:var(--muted)}
 p{max-width:65ch}

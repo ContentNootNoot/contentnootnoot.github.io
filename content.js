@@ -79,7 +79,7 @@ project progresses. This will be blogged too.
       There aren't really any "sprites", since I wanted it to be as simple as possible just as a refesher to C.
       `,
       links: [
-        { label: 'Project Report', url: 'https://drive.google.com/file/d/1xkDii8u37cWtjhK7TEXH03CSLI4R7-xZ/view' },
+        { label: 'Project Report', url: '' },
         { label: 'Source code', url: '' }
       ]
     },
